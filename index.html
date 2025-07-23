@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>મારું વ્યક્તિગત પેજ</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px 0;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 160px;
+      height: 160px;
+      margin: 20px 0;
+    }
+
+    section {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      text-align: left;
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
+    button {
+      padding: 12px 25px;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #246b45;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #e0e0e0;
+      font-size: 14px;
+    }
+
+    /* ✅ Responsive Design with Media Query */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      ul li {
+        font-size: 16px;
+      }
+
+      button {
+        width: 100%;
+        font-size: 18px;
+      }
+
+      section {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>હાય! હું છું પાર્થ</h1>
+    <p>Welcome to my personal website</p>
+  </header>
+
+  <img src="https://via.placeholder.com/160" alt="મારું ફોટો">
+
+  <section>
+    <h2>મારા વિષે</h2>
+    <p>હું એક વેબ ડેવલપર બનવાનો અભ્યાસ કરી રહ્યો છું. મને નવી ટેક્નોલોજી શીખવી ખૂબ ગમે છે.</p>
+
+    <h3>મારા શોખ</h3>
+    <ul>
+      <li>📘 વાંચવું</li>
+      <li>💻 કોડિંગ</li>
+      <li>🎧 સંગીત સાંભળવું</li>
+      <li>📸 ફોટોગ્રાફી</li>
+    </ul>
+
+    <button onclick="contactMe()">મારો સંપર્ક કરો</button>
+  </section>
+
+  <footer>
+    &copy; 2025 પાર્થ. બધા હક સુરક્ષિત છે.
+  </footer>
+
+  <script>
+    function contactMe() {
+      alert("મારો ઈમેઈલ: parth@example.com");
+    }
+  </script>
+
+</body>
+</html>
